@@ -9,11 +9,11 @@ package abstracyfactory;
  *
  * @author zigis
  */
-public class AdidasFactory implements AbstractFactory {
-    AbstractFarkut farkut = null;
-    AbstractLippis lippis = null;
-    AbstractKengat kengat = null;
-    AbstractPaita paita = null;
+public class AdidasFactory implements VaateTehdas {
+    Farkut farkut = null;
+    Lippis lippis = null;
+    Kengat kengat = null;
+    Paita paita = null;
 
     @Override
     public void luoFarkut() {

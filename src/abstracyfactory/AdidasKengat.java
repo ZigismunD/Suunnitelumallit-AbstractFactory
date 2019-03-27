@@ -9,7 +9,7 @@ package abstracyfactory;
  *
  * @author zigis
  */
-public class AdidasKengat implements AbstractKengat {
+public class AdidasKengat implements Kengat {
     
     public String toString() {
         return "Adidas kengät";

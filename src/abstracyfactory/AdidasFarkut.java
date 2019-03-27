@@ -9,7 +9,7 @@ package abstracyfactory;
  *
  * @author zigis
  */
-public class AdidasFarkut implements AbstractFarkut {
+public class AdidasFarkut implements Farkut {
     
     public String toString() {
         return "Adidas farkut";

@@ -9,7 +9,7 @@ package abstracyfactory;
  *
  * @author zigis
  */
-public class BossLippis implements AbstractLippis {
+public class BossLippis implements Lippis {
     
     public String toString() {
         return "Boss lippis";

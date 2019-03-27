@@ -9,7 +9,7 @@ package abstracyfactory;
  *
  * @author zigis
  */
-public class BossFarkut implements AbstractFarkut {
+public class BossFarkut implements Farkut {
     
     public String toString() {
         return "Boss farkut";

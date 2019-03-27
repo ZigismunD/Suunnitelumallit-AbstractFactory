@@ -24,7 +24,7 @@ public class Client {
         
 
         Class c = null;
-        AbstractFactory tehdas = null;
+        VaateTehdas tehdas = null;
 
         Properties properties = new Properties();
         try {
@@ -37,11 +37,11 @@ public class Client {
         try {
             //luetaan toteuttava tehdas properties-tiedostosta
             c = Class.forName(properties.getProperty("tehdas"));
-            tehdas = (AbstractFactory) c.newInstance();
+            tehdas = (VaateTehdas) c.newInstance();
         } catch (Exception e) {
             e.printStackTrace();
         }
-        AbstractFactory jasper  = tehdas;
+        VaateTehdas jasper  = tehdas;
         jasper.luoFarkut();
         jasper.luoLippis();
         jasper.luoKengat();

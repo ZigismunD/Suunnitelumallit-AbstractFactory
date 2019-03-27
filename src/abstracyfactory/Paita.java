@@ -9,10 +9,6 @@ package abstracyfactory;
  *
  * @author zigis
  */
-public interface AbstractFactory {
-    void luoFarkut();
-    void luoLippis();
-    void luoKengat();
-    void luoPaita();
+public interface Paita {
     
 }

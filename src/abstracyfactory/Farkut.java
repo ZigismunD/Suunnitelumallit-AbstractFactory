@@ -9,6 +9,6 @@ package abstracyfactory;
  *
  * @author zigis
  */
-public interface AbstractLippis {
+public interface Farkut {
     
 }

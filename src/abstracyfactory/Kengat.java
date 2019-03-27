@@ -9,6 +9,6 @@ package abstracyfactory;
  *
  * @author zigis
  */
-public interface AbstractKengat {
+public interface Kengat {
     
 }

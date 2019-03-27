@@ -9,7 +9,7 @@ package abstracyfactory;
  *
  * @author zigis
  */
-public class BossPaita implements AbstractPaita {
+public class BossPaita implements Paita {
     
     public String toString() {
         return "Boss paita";
